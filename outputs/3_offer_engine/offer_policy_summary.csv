@@ -1,0 +1,14 @@
+,value
+width_calibration_factor,1.4500000000000004
+transaction_cost_rate,0.015
+holding_cost_rate,0.01
+resale_prep_cost_rate,0.015
+target_margin_rate,0.01
+base_spread,0.05
+penalty_strength,0.15
+max_uncertainty_penalty,0.1
+manual_review_candidate_count,567.0
+manual_review_candidate_share,0.1311589174184594
+average_uncertainty_penalty,0.06392249613364748
+average_total_spread,0.11392249613364751
+average_buy_offer,463943.79755122476

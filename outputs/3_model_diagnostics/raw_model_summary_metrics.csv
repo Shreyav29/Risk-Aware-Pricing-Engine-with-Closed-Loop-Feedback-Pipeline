@@ -1,0 +1,10 @@
+,value
+median_absolute_error,67781.70912403487
+median_absolute_percentage_error,0.1197303544345784
+root_mean_squared_error,124369.89914827932
+q10_q90_interval_coverage,0.6627342123525329
+expected_interval_coverage,0.8
+average_interval_width_dollars,165836.0990477918
+average_uncertainty_score,0.31141412847945754
+average_total_spread,0.0960723968426128
+average_offer_to_value_ratio,0.9039276031573871
