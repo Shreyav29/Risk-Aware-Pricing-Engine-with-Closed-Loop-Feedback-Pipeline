@@ -1,5 +1,10 @@
 [![Substack](https://img.shields.io/badge/Substack-Read%20my%20writing-orange?style=flat&logo=substack)](your-substack-link)
 
+## 📖 Full Writeup
+A detailed breakdown of the system design, methodology, and business tradeoffs 
+is available on Substack:
+👉 [Your Pricing Model Is Probably Overconfident](your-substack-link)
+
 # Risk-Aware Home Pricing Engine
 
 A probabilistic pricing system for real estate acquisition decisions. The project moves beyond a single home-value prediction by estimating valuation uncertainty, converting that uncertainty into a dynamic offer spread, and using realized resale outcomes to adjust future offers.
