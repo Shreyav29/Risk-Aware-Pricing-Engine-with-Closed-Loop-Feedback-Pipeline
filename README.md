@@ -1,9 +1,8 @@
-[![Substack](https://img.shields.io/badge/Substack-Read%20my%20writing-orange?style=flat&logo=substack)](your-substack-link)
 
 ## 📖 Full Writeup
 A detailed breakdown of the system design, methodology, and business tradeoffs 
 is available on Substack:
-👉 [Your Pricing Model Is Probably Overconfident](your-substack-link)
+👉 [![Substack](https://img.shields.io/badge/Substack-Read%20my%20writing-orange?style=flat&logo=substack)](https://open.substack.com/pub/shreyavontela/p/your-pricing-model-is-probably-overconfident?r=4a65s9&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true)
 
 # Risk-Aware Home Pricing Engine
 
