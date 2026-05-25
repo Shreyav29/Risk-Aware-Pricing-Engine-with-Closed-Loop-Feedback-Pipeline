@@ -15,39 +15,6 @@ Point AVM:      What is this home worth?
 Risk-aware AVM: What is it worth, how uncertain are we, and how should that change the offer?
 ```
 
-## System Overview
-
-```mermaid
-flowchart LR
-    A["Data<br/>Home + Market Features"]
-    B["Quantile AVM<br/>Q10, Q50, Q90"]
-    C["Width Calibration<br/>Reliable Q10-Q90 Band"]
-    D["Buy Offer Engine<br/>Q50 - Base Spread - Risk Penalty"]
-    E["Sell-Side Outcomes<br/>Realized Resale"]
-    F["Market Multiplier<br/>Median Resale / Expected Q50"]
-    G["Next Offers<br/>Quantiles shifted by multiplier"]
-
-    A --> B --> C --> D
-    C --> E
-    E --> F
-    F --> G
-    C --> G
-    G --> D
-
-    classDef data fill:#EEF2FF,stroke:#4F46E5,stroke-width:1.5px,color:#111827
-    classDef model fill:#F0FDFA,stroke:#0F766E,stroke-width:1.5px,color:#111827
-    classDef calibration fill:#FFF7ED,stroke:#C2410C,stroke-width:1.5px,color:#111827
-    classDef offer fill:#F7FEE7,stroke:#4D7C0F,stroke-width:1.5px,color:#111827
-    classDef sell fill:#FDF2F8,stroke:#BE185D,stroke-width:1.5px,color:#111827
-    classDef feedback fill:#EFF6FF,stroke:#1D4ED8,stroke-width:2px,color:#111827
-
-    class A data
-    class B model
-    class C calibration
-    class D,G offer
-    class E sell
-    class F feedback
-```
 
 ## Detailed End-To-End Flow
 
